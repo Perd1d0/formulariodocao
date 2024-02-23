@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "oswald", sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+
+h1{
+    margin: 1em;
+}
+
+h3{
+    margin: 1em;
+}
+
+header {
+    background-color: #000000;
+    color: #F6F1F1;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 1em;
+    box-shadow: rgba(63,75,251, 0.5) 0px 3px 8px;
+}
+
+body {
+    background: rgb(63,75,251);
+    background: radial-gradient(circle, rgba(63,75,251,1) 0%, rgba(0,0,0,1) 100%);
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1em 1em 1em 1em;
+}
+
+.perguntas1 {
+    font-size: 1em;
+}
+
+.perguntas2 {
+
+    font-size: 1em;
+    padding: 1em;
+    background-color: #000000;
+    border: 0.15em solid white;
+    border-radius: 0.5em;
+    box-shadow: rgba(63,75,251, 0.5) 0px 3px 8px;
+}
+
+.caixa-de-perguntas {
+    font-size: 1em;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.btn-enviar {
+    width: 3em;
+    height: 2em;
+    
+}
+
+.input-box{
+    margin: 1em;
+}
+
+.input-box input{
+    padding: 0.4em;
+    width: 100%;
+    margin-top: 0.6em ;
+    border: none;
+}
+
+.input-box label{
+    margin: 0.3em;
+    padding: 0.3em;
+}
+
+.input-box button{
+    width: 100%;
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(63,75,251);
+    color: #fff;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #000000;
+    border: 0.15em solid white;
+    border-radius: 0.5em;
+    box-shadow: rgba(63,75,251, 0.5) 0px 3px 8px;
+}
+
+
+footer h1{
+    font-size: 1.2em;
+    text-align: center;
+}
